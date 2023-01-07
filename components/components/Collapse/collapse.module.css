@@ -1,0 +1,52 @@
+.container {
+  padding: 5px;
+  width: inherit;
+  height: max-content;
+
+}
+
+.head {
+  display: flex;
+  padding: 0.5rem;
+  width: inherit;
+  height: max-content;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 10px;
+  color: #222222;
+  cursor: pointer;
+}
+.body {
+    opacity: 0;
+  display: none;
+  padding: 0 0.1rem 0 0.4rem;
+  width: inherit;
+  height: max-content;
+  transition:  2s  ease-in-out;
+
+  /* transition:width 2s, height 4s; */
+}
+.expandBody {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  padding: 0 0.1rem 0 0.4rem;
+  width: inherit;
+  height: max-content;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 10px;
+  color: #222222;
+
+  overflow: hidden;
+  transition:  .5s  ease-in-out;
+}
+
+.my_collapse {
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+  }

@@ -1,0 +1,82 @@
+
+
+.container{
+max-width: 100%;
+
+min-height: 45px;
+height: max-content;
+box-sizing: border-box;
+padding: 5px;
+display: flex;
+flex-wrap: wrap;
+
+
+
+/* Color/3 */
+
+background: #FFFFFF;
+/* Border */
+
+border: 1px solid #E9E9E9;
+border-radius: 4px;
+
+}
+.selectedDataContainer{
+padding: 1px;
+display: flex;
+flex-wrap: wrap;
+gap: 2px;
+flex-direction: row;
+}
+.selectedData{
+    display: flex;
+    height: 30px;
+    padding: 2px 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #1d1d1b;
+    background: #FFEDE8;
+    border-radius: 60px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    align-items: center;
+}
+.selectedData option{
+    font-family: sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #1D1D1B;
+padding-right: 2px;
+}
+.btnWrapper{
+    width: max-content;
+    height: inherit !important;
+    display: flex;
+    align-items: flex-end;
+}
+.rmvBtn{
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 3px;
+    height:inherit;
+    appearance: unset;
+    border: none;
+    background: none;
+    text-align: center;
+    
+}
+
+.inputText{
+    width: 80px;
+min-width: 5px;
+padding-left: 3px;
+appearance: unset;
+border: none;
+outline: none;
+
+}
+
+.inputText:focus{
+    outline: none;
+}
